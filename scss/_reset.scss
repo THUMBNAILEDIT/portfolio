@@ -1,0 +1,43 @@
+body {
+  background-color: var(--black);
+  font-family: "Inter", sans-serif;
+  @font-face {
+    font-family: HYPERGOALS;
+    src: url("../fonts/HYPEGOALS.TTF");
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --green: #96ff00;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
