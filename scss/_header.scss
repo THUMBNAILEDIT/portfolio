@@ -36,17 +36,11 @@
   @include big-mobile {
     width: 157px;
     height: 30px;
-
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
 
   @include tablet {
     width: 300px;
     height: 50px;
-
-    padding-top: 25px;
-    padding-bottom: 25px;
   }
 }
 
@@ -91,6 +85,10 @@
   width: 125px;
   height: 38px;
 
+  transition-property: scale;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.44, 0, 0.56, 1);
+
   @include big-mobile {
     width: 198.5px;
     height: 60px;
@@ -100,6 +98,10 @@
     width: 225px;
     height: 80px;
   }
+}
+
+.header-button:hover {
+  scale: 1.05;
 }
 
 .header-button__text {
@@ -112,6 +114,6 @@
   }
 
   @include tablet {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
